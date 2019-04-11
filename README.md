@@ -18,18 +18,18 @@ wget "https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vg
 ```
 ### Download pretrained weights
 Make a new folder ‘weights’ inside the ‘segNet-Keras’ folder. (it should be as follows: ~/segNet-Keras/weights/) <br>
-Download pretrained weights from “https://drive.google.com/drive/folders/130h07bLqzJ9Cs9wu_QVjer0LLay0v-kD?usp=sharing”
+Download pretrained weights from “https://drive.google.com/drive/folders/130h07bLqzJ9Cs9wu_QVjer0LLay0v-kD?usp=sharing” <br>
 and unzip it inside the ‘weights‘ folder.
 
 ### Upload the image files
-Make a new ‘test’ folder inside the ‘~/segNet-Keras/data/’ folder.
-Your directory should look like:
+Make a new ‘test’ folder inside the ‘~/segNet-Keras/data/’ folder.<br>
+Your directory should look like:<br>
 ```
 segNet-Keras
   /data
     /test
 ```
-Put images from which you want to get segmentation inside the ‘test’ folder.
+Put images from which you want to get segmentation inside the ‘test’ folder.<br>
 
 ### Run the code
 ```
@@ -43,13 +43,13 @@ THEANO_FLAGS=device=gpu,floatX=float32  python  predict.py \
 ```
 
 
-
+<br><br>
 ## Train with your own dataset
-Place images for training inside the ‘~/segNet-Keras/data/train/images_prepped_train/’ folder and
-their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_train/’ folder.
-For your images for validating the trained model, place them inside the ‘~/segNet-Keras/data/train/images_prepped_test/’ folder and
-their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_test/’ folder.
-
+Place images for training inside the ‘~/segNet-Keras/data/train/images_prepped_train/’ folder and<br>
+their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_train/’ folder.<br>
+For your images for validating the trained model, place them inside the ‘~/segNet-Keras/data/train/images_prepped_test/’ folder and<br>
+their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_test/’ folder.<br>
+<br><br>
 Run the code below:
 ```
 THEANO_FLAGS=device=gpu,floatX=float32  python  train.py \
@@ -61,8 +61,8 @@ THEANO_FLAGS=device=gpu,floatX=float32  python  train.py \
  --n_classes=10 \
  --model_name="vgg_segnet" 
 ```
-
+<br><br>
 ## Download the sample prepared dataset
-Download and extract the following:
-https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing
+Download and extract the following:<br>
+https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing<br>
 Place the folders in ‘~/segNet-Keras/data/train/’
