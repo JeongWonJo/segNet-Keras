@@ -1,5 +1,6 @@
 # segNet-Keras
-This is the edited version of “https://github.com/divamgupta/image-segmentation-keras”
+This is the edited version of “https://github.com/divamgupta/image-segmentation-keras”. <br>
+The modules are to implement image segmentation leveraging on the segNet based on Keras.
 
 ## Prerequisites
 python 2.7 
