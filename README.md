@@ -1,5 +1,5 @@
 # segNet-Keras
-This is edited version of “https://github.com/divamgupta/image-segmentation-keras”
+This is the edited version of “https://github.com/divamgupta/image-segmentation-keras”
 
 ## Prerequisites
 python 2.7 
