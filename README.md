@@ -17,7 +17,7 @@ cd data
 wget "https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_th_dim_ordering_th_kernels.h5"
 ```
 ### Download pretrained weights
-Make a new folder ‘weights’ inside the ‘segNet-Keras’ folder. (it should be as follows: ~/segNet-Keras/weights/)
+Make a new folder ‘weights’ inside the ‘segNet-Keras’ folder. (it should be as follows: ~/segNet-Keras/weights/) <br>
 Download pretrained weights from “https://drive.google.com/drive/folders/130h07bLqzJ9Cs9wu_QVjer0LLay0v-kD?usp=sharing”
 and unzip it inside the ‘weights‘ folder.
 
