@@ -45,10 +45,10 @@ THEANO_FLAGS=device=gpu,floatX=float32  python  predict.py \
 
 <br><br>
 ## Train with your own dataset
-Place images for training inside the ‘~/segNet-Keras/data/train/images_prepped_train/’ folder and<br>
-their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_train/’ folder.<br>
-For your images for validating the trained model, place them inside the ‘~/segNet-Keras/data/train/images_prepped_test/’ folder and<br>
-their annotations inside the ‘~/segNet-Keras/data/train/annotations_prepped_test/’ folder.<br>
+Place images for training inside the ‘/segNet-Keras/data/train/images_prepped_train/’ folder and<br>
+their annotations inside the ‘/segNet-Keras/data/train/annotations_prepped_train/’ folder.<br>
+For your images for validating the trained model, place them inside the ‘/segNet-Keras/data/train/images_prepped_test/’ folder and<br>
+their annotations inside the ‘/segNet-Keras/data/train/annotations_prepped_test/’ folder.<br>
 <br><br>
 Run the code below:
 ```
