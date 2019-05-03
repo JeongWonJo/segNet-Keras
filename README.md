@@ -19,7 +19,7 @@ wget "https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vg
 ```
 ### Download pretrained weights
 Make a new folder ‘weights’ inside the ‘segNet-Keras’ folder. (it should be as follows: ~/segNet-Keras/weights/) <br>
-Download pretrained weights from “https://drive.google.com/drive/folders/130h07bLqzJ9Cs9wu_QVjer0LLay0v-kD?usp=sharing” <br>
+Download pretrained weights from https://drive.google.com/drive/folders/130h07bLqzJ9Cs9wu_QVjer0LLay0v-kD?usp=sharing <br>
 and unzip it inside the ‘weights‘ folder.
 
 ### Upload the image files
